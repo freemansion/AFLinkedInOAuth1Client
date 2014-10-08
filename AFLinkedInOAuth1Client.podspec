@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'AFLinkedInOAuth1Client'
   s.requires_arc = true  
-  s.ios.deployment_target = '5.0'
+  s.ios.deployment_target = '6.0'
   s.dependency 'AFOAuth1Client', :git => "https://github.com/freemansion/AFOAuth1Client"
 end
